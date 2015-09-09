@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         putInt(getApplicationContext(), 10);
 
         // NOTE: The value should be a custom application name
-        // But when the first launching after backup, the value is android.app.Application during the process
+        // But when the first launching after backup, the value is android.app.Application
         textView.setText(getApplication().getClass().getCanonicalName());
     }
 
