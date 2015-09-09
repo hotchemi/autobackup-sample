@@ -9,6 +9,6 @@ $ adb shell bmgr run
 $ adb shell bmgr fullbackup sample.autobackup
 # Uninstall app
 $ ./gradlew installDebug
-# Launch app, TextView shows android.app.Application during the first process
-# From the second process, TextView shows sample.autobackup.SampleApplication
+# Launch app, TextView shows android.app.Application
+# From the second, TextView shows sample.autobackup.SampleApplication
 ```
